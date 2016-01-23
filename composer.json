@@ -1,0 +1,22 @@
+{
+    "name": "zmarquez/kata-gilded-rose",
+    "authors": [
+        {
+            "name": "Zacarías Márquez",
+            "email": "zacarias.marquez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "GildedRose\\": "src/",
+            "Tests\\": "tests/unit/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
